@@ -12,6 +12,11 @@
     <sprite>sprites\sprR</sprite>
     <sprite>sprites\sprG</sprite>
     <sprites name="sprsOutdated">
+      <sprite>sprites\sprD</sprite>
+      <sprite>sprites\sprEx</sprite>
+      <sprite>sprites\sprA</sprite>
+      <sprite>sprites\sprS</sprite>
+      <sprite>sprites\sprV</sprite>
       <sprites name="sprsObjetos">
         <sprite>sprites\sprO1</sprite>
         <sprite>sprites\sprO2</sprite>
@@ -19,9 +24,6 @@
         <sprite>sprites\sprO4</sprite>
         <sprite>sprites\sprO5</sprite>
       </sprites>
-      <sprite>sprites\sprD</sprite>
-      <sprite>sprites\sprEx</sprite>
-      <sprite>sprites\sprV</sprite>
       <sprites name="sprsEnemigos">
         <sprite>sprites\spr_E</sprite>
         <sprite>sprites\sprBEd</sprite>
@@ -37,8 +39,6 @@
           <sprite>sprites\sprPd</sprite>
         </sprites>
       </sprites>
-      <sprite>sprites\sprA</sprite>
-      <sprite>sprites\sprS</sprite>
     </sprites>
     <sprites name="sprsWalls">
       <sprite>sprites\sprWall</sprite>
@@ -55,8 +55,11 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\objSpawnBloques</object>
     <object>objects\objR</object>
     <object>objects\objM</object>
+    <object>objects\objWall</object>
+    <object>objects\objMarco</object>
     <objects name="objsOutdated">
       <objects name="objsEnemigos">
         <object>objects\objE</object>
@@ -83,8 +86,6 @@
       <object>objects\objMusica</object>
       <object>objects\objH</object>
     </objects>
-    <object>objects\objWall</object>
-    <object>objects\objMarco</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\NivelJuego</room>

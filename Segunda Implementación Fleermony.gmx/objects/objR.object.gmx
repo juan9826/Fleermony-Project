@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// Variables iniciales.
 
+x = objM.x
 hvel = 16;
 jump = false;
 vel = 7;
