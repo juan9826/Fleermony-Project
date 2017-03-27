@@ -86,6 +86,8 @@
       <object>objects\objMusica</object>
       <object>objects\objH</object>
     </objects>
+    <object>objects\objConfig</object>
+    <object>objects\objPausa</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\NivelJuego</room>

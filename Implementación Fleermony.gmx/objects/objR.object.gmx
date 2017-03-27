@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Variables iniciales.
 
-x = objM.x
+global.firstplatform = false;
 hvel = 16;
 jump = false;
 vel = 7;
@@ -51,6 +51,30 @@ global.obj2 = false;
 global.obj3 = false;
 global.obj4 = false;
 global.obj5 = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Creación de primera Plataforma.
+
+instance_create(x, 810, objM);
+
 </string>
           </argument>
         </arguments>
@@ -290,6 +314,31 @@ with (objBi){
     instance_destroy();
 //    show_debug_message("Bala destruida");
     }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Control Caídas letales.
+
+if (y &gt; 1080){
+room_goto(GameOver)
 }
 </string>
           </argument>

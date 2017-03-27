@@ -1,0 +1,7 @@
+Hasta el momento reportamos:
+
+	*Sprites de enemigos y coleccionables en proceso de animación.
+
+	*Bug con el spawn de plataformas pues deja de spawnearlas .
+
+	*Bug con los colores de las plataformas al subir verticalmente.
